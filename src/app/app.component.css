@@ -1,0 +1,13 @@
+.app-title {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.calculate-values {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: blueviolet;
+}
