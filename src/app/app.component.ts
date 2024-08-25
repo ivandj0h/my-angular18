@@ -1,18 +1,14 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from "./navbar/navbar.component";
-import { ButtonsComponent } from "./buttons/buttons.component";
-
+import { CustomButtonsComponent } from './custom-buttons/custom-buttons.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, ButtonsComponent],
+  imports: [RouterOutlet, CustomButtonsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-
-  firstValue: number = 2;
-  secondValue: number = 3;
+  title = 'Angular 18 with PrimeNG & PrimeFlex';
 }
