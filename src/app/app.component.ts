@@ -10,5 +10,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-angular-app';
+
+  firstValue: number = 2;
+  secondValue: number = 3;
 }

@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  title: string = 'This is the NavBar Component';
+
+
 }
