@@ -1,14 +1,14 @@
-<div class="card flex justify-content-center mt-5">
-  <button
-    pButton
-    pRipple
-    label="Submit"
-    class="p-button-primary"
-    (click)="submit()"
-  ></button>
+<div class="card flex justify-content-center gap-3 mt-6">
+  <p-button
+    [label]="sumResult !== null ? 'Load Success!' : 'Load Calculation'"
+    [icon]="sumResult !== null ? 'pi pi-check' : 'pi pi-chevron-circle-down'"
+    [styleClass]="sumResult !== null ? 'p-button-success' : 'p-button-primary'"
+    [loading]="loading"
+    (click)="load()"
+  ></p-button>
 </div>
 
-<div *ngIf="sumResult !== null" class="text-center mt-3">
+<div *ngIf="sumResult !== null" class="text-center mt-6">
   <p class="text-xl font-bold">
     The sum of {{ numberOne }} and {{ numberTwo }} = {{ sumResult }}
   </p>
