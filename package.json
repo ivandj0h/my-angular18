@@ -20,7 +20,7 @@
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/platform-server": "^18.2.0",
     "@angular/router": "^18.2.0",
-    "@angular/ssr": "^18.2.1",
+    "@angular/ssr": "^18.2.21",
     "express": "^4.21.1",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
